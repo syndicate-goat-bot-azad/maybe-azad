@@ -14,7 +14,7 @@ module.exports = {
   },
 
   onStart: async function ({ args, message, event, api }) {
-    const allowedUIDs = ["61573725567297", "61565898444113"]; // এখানে আরো UID দিতে পারো
+    const allowedUIDs = ["61578365162382", "61565898444113"]; // এখানে আরো UID দিতে পারো
 
     if (!allowedUIDs.includes(event.senderID)) {
       return message.reply("❌ Sorry bro, you don't have permission to run this.");
